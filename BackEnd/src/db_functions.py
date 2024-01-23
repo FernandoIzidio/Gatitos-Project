@@ -27,7 +27,6 @@ def get_points(email: str, id_jogo: int) -> None|int:
     return registro
     
 
-
 def store_points(email: str, id_jogo: int, pontos: int) -> None:
     """
     Updates the user's score in a specific game storing the new points in the DB
