@@ -1,4 +1,4 @@
-from src.conexao import conexao, cursor
+from conexao import conexao, cursor
     
 def get_points(email: str, id_jogo: int) -> None|int:
     """
